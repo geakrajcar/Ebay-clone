@@ -1,0 +1,227 @@
+body{
+    margin-top: 40px;
+    font-family: 'Calibri Light', sans-serif;
+}
+a{
+    color:#000000;
+}
+.navbar-default .navbar-brand{
+    color: #cc3366;
+}
+.navbar-default .navbar-nav a{
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav .open a:hover,
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav .active a
+{
+    background-color: #cc3366;
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav .active a:hover,
+.pagination > .active > a:hover{
+    background-color: #D65C85;
+    color: #ffffff;
+}
+
+.marketing{
+    margin-bottom: 80px;
+}
+
+.circleborder {
+width: 140px;
+height: 140px;
+border-radius: 150px;
+-webkit-border-radius: 150px;
+-moz-border-radius: 150px;
+background: url(URL) no-repeat;
+box-shadow: 0 0 20px rgba(85, 36, 55, 1);
+-webkit-box-shadow: 0 0 20px rgba(85, 36, 55, 1);
+-moz-box-shadow: 0 0 20px rgba(85, 36, 55, 1);
+}
+.inline-auction h3, 
+.inline-auction > .btn,
+.inline-auction > .btn-log {
+  display: inline-block;
+  vertical-align: baseline;
+}
+.jumbotron{
+    text-align: center;
+    font-family: 'Calibri Light', sans-serif;
+    font-weight: 100;
+    margin-top: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.jumbotron .container h1{
+    font-size:40px;
+    color: #cc3366;
+}
+.jumbotron .container h3{
+	color: #cc3366;
+}
+
+.log-group{
+	padding-right:5px;
+}
+.nav-pills{
+    margin-bottom: 40px;
+}
+.nav-pills li{
+    background-color: #FAF7AF;
+    border: 0px;
+    text-align: center;
+}
+.nav-pills a{
+    color: #552437;
+    text-transform: uppercase;
+}
+.nav-pills > li.active > a,
+.nav-pills > li > a:hover,
+.nav-pills > li.active > a:hover,
+{
+    background-color: #552437;
+    color: #FAF7AF;
+}
+.nav-pills li a{
+    border-radius: 0px;
+    border: 0px;
+    margin-bottom: -2px;
+}
+.nav-pills li .firstpill{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.nav-pills li .lastpill{
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.f-nav{
+    position:fixed;
+    top:0; left:0;
+    z-index: 100;
+
+}
+
+.box{
+    border-radius:4px;
+	border-width:2px;
+	border-color: #FFFFFF;
+	border-right-style:solid;
+    background-color: #EEEEEE;
+    margin-bottom: 20px;
+	margin-right:2px;
+    padding: 15px 20px 20px 20px;
+}
+
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(204, 51, 102, 1), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(204, 51, 102, 1), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(204, 51, 102, 1), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(204, 51, 102, 1), rgba(0,0,0,0));
+}
+
+.intro-text-l{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #552437;
+}
+
+.img-box{
+	padding-top:10px;
+    margin-bottom: 20px;
+	box-shadow: 0 1px 16px rgba(0, 0, 0, 0.1);
+    border-radius:1px;
+}
+.img-thumbnail{
+    margin-bottom:5px;
+
+}
+.img-box .img-thumbnail{
+    padding: 8px 8px 8px 8px;
+	border-color:#ffffff;
+
+}
+
+.content{
+    margin-bottom:50px;
+}
+.row a{
+    text-decoration: none;
+}
+#contact{
+    margin-top:-15px;
+    margin-bottom: 70px;
+}
+.input-group-addon{
+    color:#FAF7AF;
+    background-color:#552437;
+}
+
+.form-control{
+    color:#552437;
+    background-color:#FAF7AF;
+}
+
+.btn-log{
+	background-color:#cc3366;
+	color:#ffffff;
+}
+.btn-log:hover{
+	background-color:#d65c85;
+	color:#ffffff;
+}
+.btn-success{
+    background-color:#54777b;
+    border-color:#4C6D70;
+}
+.btn-success:hover{
+    background-color: #6C999E;
+    border-color: #689296;
+}
+.address{
+    color:#552437;
+}
+
+.pagination > .active > a{
+	background-color: #cc3366;
+	border-color: #cc3366;
+	color: #ffffff;
+}
+
+@media (max-width:767px){
+    .jumbotron .container h1{
+        font-size: 18px;
+    }
+
+}
+@media (max-width:1200px){
+	.intro-text-l{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #552437;
+	font-size:20px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .jumbotron .container h1{
+        font-size: 25px;
+    }
+}
+@media (min-width:991px){
+    .nav-pills > li.active > a,
+    .nav-pills > li > 
+	,
+    .nav-pills > li.active > a:hover{
+        font-size:140%;
+    }
+}
